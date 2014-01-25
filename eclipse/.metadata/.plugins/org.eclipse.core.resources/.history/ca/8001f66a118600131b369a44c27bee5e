@@ -1,0 +1,7 @@
+package com.timothyboye.minecraft.mod0.items;
+
+import ItemBlock;
+
+public class ItemMachine extends ItemBlock {
+
+}

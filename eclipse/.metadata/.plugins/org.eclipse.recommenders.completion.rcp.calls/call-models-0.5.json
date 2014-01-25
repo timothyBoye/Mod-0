@@ -8,5 +8,10 @@
     "coordinate": "jre:jre:zip:call:1.0.0",
     "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
     "status": "RESOLVED"
+  },
+  "/Users/timothyboye/ICT Freelance/Minecraft/Mod 0/jars/mods/Natura_mc1.6.X_2.1.14.jar": {
+    "location": "/Users/timothyboye/ICT Freelance/Minecraft/Mod 0/jars/mods/Natura_mc1.6.X_2.1.14.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/timothyboye/ICT Freelance/Minecraft/Mod 0/jars/mods/Natura_mc1.6.X_2.1.14.jar\u0027. Neither fingerprint \u002710c779a40aae5fe6e8b71ea6b8d6b813586f5e61\u0027 nor symbolic name \u0027Natura_mc1.6.X_2.1.14\u0027 are known."
   }
 }

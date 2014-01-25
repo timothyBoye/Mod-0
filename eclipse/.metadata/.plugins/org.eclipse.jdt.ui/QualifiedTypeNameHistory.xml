@@ -13,7 +13,9 @@
 <fullyQualifiedTypeName name="net.minecraft.util.Icon"/>
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.blocks.Blocks"/>
 <fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.blocks.BlockInfo"/>
+<fullyQualifiedTypeName name="mods.natura.Natura"/>
+<fullyQualifiedTypeName name="mods.natura.items.BerryItem"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
