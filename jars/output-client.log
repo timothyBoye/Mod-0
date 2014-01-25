@@ -482,3 +482,11 @@
 2014-01-24 16:15:34 [CLIENT] [SEVERE] Using missing texture, unable to load: mod0:textures/items/apple_muffin.png
 2014-01-24 16:15:36 [CLIENT] [SEVERE] Realms: Server not available!
 2014-01-24 16:18:27 [CLIENT] [INFO] Stopping!
+2014-01-25 22:29:35 [CLIENT] [INFO] Setting user: Player923
+2014-01-25 22:29:35 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-25 22:29:36 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-25 22:29:39 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tim's Mod 0
+2014-01-25 22:29:40 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tim's Mod 0
+2014-01-25 22:29:42 [CLIENT] [SEVERE] Realms: Server not available!
+2014-01-25 22:30:08 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-25 22:30:14 [CLIENT] [INFO] Stopping!
