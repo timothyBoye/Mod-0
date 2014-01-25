@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPostInitializationEvent"/>
+<fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.network.PacketHandler"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.Configuration"/>
+<fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.config.ConfigHandler"/>
+<fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.items.ItemInfo"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.items.Items"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.LanguageRegistry"/>
+<fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.ModInformation"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.util.Icon"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

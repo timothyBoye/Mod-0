@@ -1,0 +1,5 @@
+package com.timothyboye.minecraft.mod0.network;
+
+public class PacketHandler {
+
+}

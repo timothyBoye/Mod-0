@@ -1,0 +1,199 @@
+!SESSION 2014-01-18 12:13:28.844 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-18 12:13:35.081
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2014-01-18 12:43:28.159
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.contentassist.ContentAssistHandler$4@25b9dab7} vs {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@4cc637ba}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-18 12:44:20.237
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@4cc637ba} vs {org.eclipse.ui.contentassist.ContentAssistHandler$4@73787a48}
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2014-01-18 12:50:13.337
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=974, childStart=973, element==Minecraft/src<cpw.mods.fml.common{Mod.java[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * This annotation is usually paired with a second annotation {@link NetworkMod}, which declares the
+ * network related properties of this mod.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded. It has the {@link NetworkMod} annotation as well, declaring it uses channel
+ * "MyModChannel" and {@link IPacketHandler} class PacketHandler.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * // Declare that this is a network mod using the {@link Packet250CustomPayload} channel "MyModChannel", required on the client if it's present
+ * // on the server, with {@link IPacketHandler} class PacketHandler.
+ * {@literal @}NetworkMod(channels = { "MyModChannel" }, clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1100)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1088)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:829)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:684)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:612)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:495)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:694)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:612)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:604)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-01-18 12:58:49.283
+!MESSAGE Failed to open search index.
+
+!ENTRY org.eclipse.ui 4 4 2014-01-18 13:10:26.704
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@4cc637ba} vs {org.eclipse.ui.contentassist.ContentAssistHandler$4@126ef25a}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-18 13:17:58.482
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.contentassist.ContentAssistHandler$4@1aa01739} vs {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@4cc637ba}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-18 13:18:34.141
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@4cc637ba} vs {org.eclipse.ui.contentassist.ContentAssistHandler$4@50fa6d1}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-18 13:46:12.184
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@4cc637ba} vs {org.eclipse.ui.contentassist.ContentAssistHandler$4@46c1edb6}
+
+!ENTRY org.eclipse.ui 4 4 2014-01-18 13:57:37.421
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.text.contentAssist.proposals: {org.eclipse.ui.contentassist.ContentAssistHandler$4@787d483a} vs {org.eclipse.ui.fieldassist.ContentAssistCommandAdapter$1@4cc637ba}
+!SESSION 2014-01-18 16:51:03.091 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-18 16:51:09.231
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-01-19 09:25:00.545 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-19 09:25:07.886
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2014-01-19 15:37:03.706
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-19 15:37:03.706
+!MESSAGE A conflict occurred for ALT+ARROW_DOWN:
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToNextUnread,Go To Next Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d075f95,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineDown,Move Lines Down,
+		Moves the selected lines down,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57c1e88f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-19 15:37:03.706
+!MESSAGE A conflict occurred for INSERT:
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.new.local.task,New Local Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b8b314b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.toggleOverwrite,Toggle Overwrite,
+		Toggle overwrite mode,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6f51724a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-01-19 15:37:03.706
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToPreviousUnread,Go To Previous Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a4c6807,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c26915e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2014-01-20 15:28:21.444 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-20 15:28:27.774
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-01-22 16:07:11.313 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-22 16:07:20.401
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2014-01-24 15:22:34.660 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_17
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/timothyboye/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-01-24 15:22:38.011
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2014-01-24 15:22:40.515
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

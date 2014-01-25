@@ -1,0 +1,32 @@
+package com.timothyboye.minecraft.mod0.items;
+
+import java.util.List;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+public class ItemMuffin extends Item {
+	public ItemMuffin(int id) {
+		super(id);
+		setCreativeTab(CreativeTabs.tabFood);
+		setHasSubtypes(true);
+	}
+	
+	@Override
+	public String getUnlocalizedName(ItemStack itemStack) {
+		return ItemInfo.MUFFIN_UNLOCALIZED_NAME + itemStack.getItemDamage();
+	}
+	
+	@Override
+	@SideOnly(Side.CLIENT)
+	public void getSubItems(int id, CreativeTabs tab, List list) {
+		for (int i = 0; i < ItemInfo.MUFFIN_NAMES.length; i++) {
+			ItemStack stack = new ItemStack(id, 1, i);
+			list.add(stack);
+		}
+	}
+	
+}

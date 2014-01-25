@@ -1,0 +1,7 @@
+package com.timothyboye.minecraft.mod0.items;
+
+import net.minecraft.item.Item;
+
+public class ItemMuffin extends Item {
+
+}

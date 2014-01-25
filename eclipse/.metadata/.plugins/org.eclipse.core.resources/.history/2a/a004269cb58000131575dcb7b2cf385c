@@ -1,0 +1,18 @@
+[
+{
+    "modid"         : "com.timothyboye.minecraft.mod0",
+    "name"          : "Tim's Mod 0",
+    "version"       : "0.0.1",
+    "credits"       : "",
+    "authors"       : [
+        "Timothy Boye"
+        ],
+    "description"   : "Basic shell structure for a minecraft mod",
+    "url"           : "http://www.timothyboye.com/",
+    "updateUrl"     : "",
+    "logoFile"      : "",
+    "parent"        : "",
+    "screenshots"   : [
+        ]
+}
+]

@@ -1,0 +1,19 @@
+package com.timothyboye.minecraft.mod0.blocks;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class BlockMachine extends Block {
+	
+	public BlockMachine(int id) {
+		super(id, Material.iron);
+		setCreativeTab(CreativeTabs.tabRedstone);
+		setHardness(2F);
+		setStepSound(Block.soundMetalFootstep);
+		setUnlocalizedName(BlockInfo.MACHINE_UNLOCALIZED_NAME);
+		}
+	
+	
+	
+}

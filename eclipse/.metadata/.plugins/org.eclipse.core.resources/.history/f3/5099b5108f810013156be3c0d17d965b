@@ -1,0 +1,15 @@
+package com.timothyboye.minecraft.mod0.items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class ItemMuffin extends Item {
+	public ItemMuffin(int id) {
+		super(id);
+		setCreativeTab(CreativeTabs.tabFood);
+		setHasSubtypes(true);
+	}
+	
+	
+	
+}

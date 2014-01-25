@@ -1,0 +1,24 @@
+package com.timothyboye.minecraft.mod0.config;
+
+import java.io.File;
+
+import com.timothyboye.minecraft.mod0.items.ItemInfo;
+
+import net.minecraftforge.common.Configuration;
+
+public class ConfigHandler {
+
+public static final String CAT_ITEMS = "Items";
+
+
+public static void init(File file) {
+	Configuration config = new Configuration(file);
+	
+	config.load();
+	
+	ItemInfo.WAND_ID = config.get(CAT_ITEMS, ItemInfo.WAND_KEY, ItemInfo.WAND_ID).getInt() - 256;
+	
+	config.save();
+}
+	
+}
