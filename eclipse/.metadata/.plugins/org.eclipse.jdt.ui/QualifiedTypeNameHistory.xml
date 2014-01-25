@@ -14,4 +14,6 @@
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.blocks.Blocks"/>
+<fullyQualifiedTypeName name="com.timothyboye.minecraft.mod0.blocks.BlockInfo"/>
 </qualifiedTypeNameHistroy>
